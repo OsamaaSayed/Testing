@@ -6,8 +6,15 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
+
 app.get('/nora', (req, res) => {
   res.send('Hello Nora!')
+})
+
+
+
+app.get('/Osama', (req, res) => {
+  res.send('Osama branch')
 })
 
 
